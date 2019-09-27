@@ -1,0 +1,15 @@
+{
+  "required": "Bidang '{field}' wajib diisi.",
+  "requiredWhen": "Bidang '{field}' wajib diisi.",
+  "array": "Bidang '{field}' wajib bernilai Array.",
+  "unique": "Bidang '{field}' dengan nilai '{value}' sudah ada. Silakan masukkan nilai yang berbeda.",
+  "in": "Bidang '{field}' wajib diisi dengan salah satu dari nilai-nilai berikut: {expectedValues}",
+  "number": "Bidang '{field}' wajib diisi dengan angka.",
+  "includesOneOf": "Bidang '{field}' wajib berisi salah satu dari nilai-nilai berikut: {expectedValues}",
+  "file": "Bidang '{field}' wajib diisi dengan file.",
+  "fileExt": "Bidang '{field}' wajib diisi dengan file berekstensi .{expectedValues}.",
+  "min": "Bidang '{field}' wajib diisi dengan jumlah minimal {expectedValues}.",
+  "regex": "Bidang '{field}' memiliki format yang tidak sesuai.",
+  "exists": "Data dengan referensi id yang anda masukan tidak ditemukan.",
+  "dateFormat": "Bidang '{field}' wajib diisi dengan nilai tanggal/waktu yang valid."
+}

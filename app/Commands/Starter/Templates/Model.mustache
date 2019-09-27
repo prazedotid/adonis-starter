@@ -1,0 +1,20 @@
+'use strict'
+
+/** @type {typeof import('@adonisjs/lucid/src/Lucid/Model')} */
+const BaseModel = use('App/Models/Base')
+
+class {{ modelName }} extends BaseModel {
+  static get table () {
+    return '{{ tableName }}'
+  }
+
+  static get fields () {
+    return {
+    {{#fields}}
+      {{name}}: '{{rules}}',
+    {{/fields}}
+    }
+  }
+}
+
+module.exports = {{ modelName }}

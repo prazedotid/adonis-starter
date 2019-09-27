@@ -1,0 +1,9 @@
+{
+  "list": "{model} has been listed successfully.",
+  "get": "{model} has been fetched successfully.",
+  "create": "{model} has been created successfully.",
+  "update": "{model} has been updated successfully.",
+  "delete": "{model} has been deleted successfully.",
+  "notFound": "{model} with {where} of {value} cannot be found.",
+  "failed": "{model} failed to save data."
+}

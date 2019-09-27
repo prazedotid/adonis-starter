@@ -1,0 +1,8 @@
+{
+  "helloWorld": "Aplikasi sedang berjalan.",
+  "internalServerError": "Sebuah kesalahan yang tidak diduga telah terjadi.",
+  "notFound": "URL yang anda akses tidak dapat ditemukan.",
+  "uploadSuccess": "File telah berhasil diupload.",
+  "invalidModelRelation": "Relasi yang ditentukan tidak valid pada model ini.",
+  "conflict": "Data yang anda masukkan sudah ada."
+}

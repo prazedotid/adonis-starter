@@ -1,0 +1,12 @@
+'use strict'
+
+/** @type {import('../../Services/CRUDService')} */
+const BasicController = use('App/Controllers/Http/BasicController')
+
+class {{ modelName }}Controller extends BasicController {
+  constructor() {
+    super({{ modelName }})
+  }
+}
+
+module.exports = {{ modelName }}Controller

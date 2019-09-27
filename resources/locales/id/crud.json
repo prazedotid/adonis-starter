@@ -1,0 +1,9 @@
+{
+  "list": "Berhasil mendapatkan semua {model}.",
+  "get": "Berhasil mendapatkan {model}.",
+  "create": "Berhasil membuat {model}.",
+  "update": "Berhasil memperbarui {model}.",
+  "delete": "Berhasil menghapus {model}.",
+  "notFound": "{model} dengan {where} bernilai {value} tidak dapat ditemukan.",
+  "failed": "{model} gagal simpan data."
+}

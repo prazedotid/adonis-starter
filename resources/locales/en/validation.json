@@ -1,0 +1,15 @@
+{
+  "required": "Field '{field}' must be filled.",
+  "requiredWhen": "Field '{field}' must be filled.",
+  "array": "Field '{field}' must be filled with an array.",
+  "unique": "Field '{field}' with value '{value}' already exists. Please insert a different value.",
+  "in": "Field '{field}' must be filled with one of the following values: {expectedValues}",
+  "number": "Field '{field}' must be filled with a valid number.",
+  "includesOneOf": "Field '{field}' must include one of these values: {expectedValues}",
+  "file": "Field '{field}' must be a valid file.",
+  "fileExt": "Field '{field}' must be a valid file with extension of .{expectedValues}.",
+  "min": "Field '{field}' must have a value with at least length of {expectedValues}.",
+  "regex": "Field '{field}' has an invalid pattern.",
+  "exists": "The data with the id reference you entered was not found.",
+  "dateFormat": "Field '{field}' must be filled with a valid date/time format."
+}

@@ -1,0 +1,8 @@
+{
+  "helloWorld": "Application is running.",
+  "internalServerError": "An unexpected error has occured.",
+  "notFound": "The URL that you are trying to access does not exist.",
+  "uploadSuccess": "File has been uploaded successfully.",
+  "invalidModelRelation": "The specified relation is invalid for the current model.",
+  "conflict": "The data you entered already exists."
+}

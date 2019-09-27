@@ -1,0 +1,15 @@
+'use strict'
+
+const BaseValidator = use('App/Validators/Base')
+
+const {{ modelName }} = use('App/Models/{{ modelName }}')
+
+class Store extends BaseValidator {
+  get rules () {
+    return {
+      ...{{ modelName }}.fields
+    }
+  }
+}
+
+module.exports = Store
