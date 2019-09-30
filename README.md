@@ -13,8 +13,10 @@ This is a customized boilerplate of Adonis.js API blueprint. This boilerplate co
 
 ## Setup
 
-1. Clone the repo using git and run `yarn install`.
+1. Clone the repo using git and run `npm install` or `yarn install`.
 2. Generate app key using `adonis key:generate`.
+3. Create model with validation `adonis starter:model <modelName>` example : `adonis starter:model profile`
+4. Create generate crud controller `adonis starter:crud <modelName>` example : `adonis starter:crud profile` 
 
 ### Migrations
 
