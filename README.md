@@ -27,6 +27,7 @@ types other than fix: and feat: are allowed, for example @commitlint/config-conv
 4. footers other than BREAKING CHANGE: <description> may be provided and follow a convention similar to git trailer format.
 
 example: `git commit`
+
 fix: fix error login user
 
 ### Migrations
