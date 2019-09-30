@@ -28,10 +28,11 @@ types other than fix: and feat: are allowed, for example @commitlint/config-conv
 
 example: `git commit`
 
-commit messages
+commit messages:
 ```js
 fix: fix error login user
 ```
+for description details : https://www.conventionalcommits.org/
 
 ### Migrations
 
