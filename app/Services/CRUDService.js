@@ -7,6 +7,8 @@
 const _ = require('lodash')
 
 const Helpers = use('Adonis/Addons/Helpers')
+const Env = use('Env')
+const like = Env.get('DB_CONNECTION') == 'pg' ? 'ILIKE' : 'LIKE'
 
 /**
  * Service with CRUD functions
@@ -125,7 +127,7 @@ class CRUDService {
     if (Helpers.isObject(search)) {
       queryBuilder = queryBuilder.where(builder => {
         for (const [key, value] of Object.entries(search)) {
-          builder = builder.orWhere(key, 'LIKE', `%${value}%`)
+          builder = builder.orWhere(key, like, `%${value}%`)
         }
       })
     }
