@@ -30,6 +30,7 @@ class Paginate {
       countByQuery._statements = _.filter(countByQuery._statements, (statement) => {
         return excludeAttrFromCount.indexOf(statement.grouping) < 0
       })
+      countByQuery._clearGrouping('order')
     
       const showAll = limit === -1
       const counts = await countByQuery.count('* as total')
