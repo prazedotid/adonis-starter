@@ -124,13 +124,17 @@ class CRUDService {
       queryBuilder = queryBuilder.where(where)
     }
 
-    if (Helpers.isObject(search)) {
-      queryBuilder = queryBuilder.where(builder => {
-        for (const [key, value] of Object.entries(search)) {
-          builder = builder.orWhere(key, like, `%${value}%`)
-        }
-      })
+    if(search){
+      search = JSON.parse(search)
+      if (Helpers.isObject(search)) {
+        queryBuilder = queryBuilder.where(builder => {
+          for (const [key, value] of Object.entries(search)) {
+            builder = builder.orWhere(key, like, `%${value}%`)
+          }
+        })
+      }
     }
+
 
     if (paginate && !json) {
       return queryBuilder.paginate(page, limit)
